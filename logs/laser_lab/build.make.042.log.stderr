@@ -1,0 +1,3 @@
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go2.cpp:12:16:[m[K [01;35m[Kwarning: [m[Kcomma-separated list in using-declaration only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   12 | using std::cout[01;35m[K,[m[K std::endl;
+      |                [01;35m[K^[m[K

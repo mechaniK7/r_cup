@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target runALC[0m
+[ 62%] Built target ahuet
+[ 62%] [32mBuilding CXX object CMakeFiles/runALC.dir/src/laser_go3.cpp.o[0m
+[ 62%] Built target ahuet2
+[ 87%] Built target ahuet3
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go3.cpp:16:16:[m[K [01;35m[Kwarning: [m[Kcomma-separated list in using-declaration only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   16 | using std::cout[01;35m[K,[m[K std::endl;
+      |                [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable /home/nik/r_cup/devel/.private/laser_lab/lib/laser_lab/runALC[0m
+[100%] Built target runALC

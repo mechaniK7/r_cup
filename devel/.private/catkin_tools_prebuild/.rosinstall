@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nik/r_cup/devel/.private/catkin_tools_prebuild/setup.sh

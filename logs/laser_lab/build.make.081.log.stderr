@@ -1,0 +1,21 @@
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go3.cpp:16:16:[m[K [01;35m[Kwarning: [m[Kcomma-separated list in using-declaration only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   16 | using std::cout[01;35m[K,[m[K std::endl;
+      |                [01;35m[K^[m[K
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go3.cpp:23:1:[m[K [01;31m[Kerror: [m[K‘[01m[KEulerAngles[m[K’ does not name a type
+   23 | [01;31m[KEulerAngles[m[K current_angles;
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go3.cpp:[m[K In function ‘[01m[Kvoid pose(const PoseStamped&)[m[K’:
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go3.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angles[m[K’ was not declared in this scope
+   73 |     [01;31m[Kcurrent_angles[m[K.get_RPY_from_msg_quaternion(position.pose.orientation);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go3.cpp:[m[K In function ‘[01m[Kvoid subs(const LaserScan&)[m[K’:
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go3.cpp:81:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angles[m[K’ was not declared in this scope
+   81 |     vec.pose.course = [01;31m[Kcurrent_angles[m[K.yaw;
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_go2.cpp:16:16:[m[K [01;35m[Kwarning: [m[Kcomma-separated list in using-declaration only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   16 | using std::cout[01;35m[K,[m[K std::endl;
+      |                [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/runALC.dir/build.make:63: CMakeFiles/runALC.dir/src/laser_go3.cpp.o] Ошибка 1
+make[1]: *** [CMakeFiles/Makefile2:1762: CMakeFiles/runALC.dir/all] Ошибка 2
+make[1]: *** Ожидание завершения заданий…
+make: *** [Makefile:141: all] Ошибка 2

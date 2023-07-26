@@ -1,0 +1,6 @@
+devel_space: /home/nik/r_cup/devel
+install: false
+install_space: /home/nik/r_cup/install
+profile: default
+source_space: /home/nik/r_cup/src
+workspace: /home/nik/r_cup

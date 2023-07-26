@@ -1,0 +1,8 @@
+prefix=/home/nik/r_cup/devel/.private/laser_lab
+
+Name: laser_lab
+Description: Description of laser_lab
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

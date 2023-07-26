@@ -1,0 +1,13 @@
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_test.cpp:15:16:[m[K [01;35m[Kwarning: [m[Kcomma-separated list in using-declaration only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   15 | using std::cout[01;35m[K,[m[K std::endl;
+      |                [01;35m[K^[m[K
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_test.cpp:[m[K In function ‘[01m[Kvoid check()[m[K’:
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_test.cpp:65:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Subscriber sub[m[K’
+   65 |     ros::Subscriber [01;31m[Ksub[m[K = n.subscribe("scan", 1000, subs);
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/nik/r_cup/src/laser_lab/src/laser_test.cpp:64:21:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Subscriber sub[m[K’ previously declared here
+   64 |     ros::Subscriber [01;36m[Ksub[m[K = n.subscribe("/mavros/local_position/pose", 1000, pose);
+      |                     [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/ahuet3.dir/build.make:63: CMakeFiles/ahuet3.dir/src/laser_test.cpp.o] Ошибка 1
+make[1]: *** [CMakeFiles/Makefile2:1733: CMakeFiles/ahuet3.dir/all] Ошибка 2
+make: *** [Makefile:141: all] Ошибка 2
